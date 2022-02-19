@@ -1,0 +1,62 @@
+/* Custom properties */
+
+:root {
+    --primary-gray: 0 0% 63%;
+    --primary-black:  0 0% 0%;
+    --primary-white: 0 0% 100%;
+    --primary-dark-gray: 0 0% 27%;
+}
+
+/* Resets */
+
+
+
+/* Utitlity classes */
+
+
+.gray {
+    background: hsl(var(--primary-gray));
+}
+
+.dark-gray {
+    background: hsl(var(--primary-dark-gray));
+}
+
+.black {
+    background: hsl(var(--primary-black));
+}
+
+.white {
+    background: hsl(var(--primary-white));
+}
+
+/* Fonts */
+
+.text-black {
+    color: hsl(var(--primary-black));
+}
+
+.text-gray {
+    color: hsl(var(--primary-gray));
+}
+
+.text-white {
+    color: hsl(var(--primary-white));
+}
+
+.letter-spacing-1 {
+    letter-spacing: 5px;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 15px;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 25px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
