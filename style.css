@@ -18,6 +18,10 @@
     --fs-300: 1rem;
     --fs-200: 0.875rem;
 
+    --ff-500: 500;
+    --ff-600: 600;
+    --ff-700: 700;
+
 }
 
 /* Resets */
@@ -112,9 +116,14 @@ body {
     color: hsl(var(--primary-gray));
 }
 
+.text-dark-gray {
+    color: hsl(var(--primary-dark-gray));
+}
+
 .text-white {
     color: hsl(var(--primary-white));
 }
+
 
 .letter-spacing-1 {
     letter-spacing: 5px;
@@ -130,6 +139,18 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.ff-500 {
+    font-weight: 500;
+}
+
+.ff-600 {
+    font-weight: 600;
+}
+
+.ff-700 {
+    font-weight: 700;
 }
 
 /* navigation */
@@ -148,9 +169,12 @@ body {
     margin: 0 auto;
 }
 
+
 .nav-list {
     display: none;
 }
+
+/* Hero section */
 
 .hero-bg {
     background-image: url(/images/mobile-image-hero-1.jpg);
@@ -163,7 +187,6 @@ body {
     
 }
 
-
 .arrow-box {
     bottom: 0;
     right: 0;
@@ -172,7 +195,29 @@ body {
     cursor: pointer;
 }
 
-
 .arrow-1 {
     margin-right: 30px;
 }
+
+.hero-box {
+    font-size: var(--fs-200);
+    margin: 4em 0 3em;
+}
+
+.hero_title {
+    margin: 0 0 1em;
+}
+
+.hero_text {
+    margin: 0 0 2em;
+}
+
+.text-accent {
+    margin-right: 3em;
+}
+
+.cta {
+    display: flex;
+}
+
+/* main section */
