@@ -218,6 +218,30 @@ body {
 
 .cta {
     display: flex;
+    margin: 4em 0 4em;
 }
 
 /* main section */
+
+.main {
+    display: block;
+    flex-direction: column;
+}
+
+.main_title {
+    font-size: var(--fs-200);
+    margin: 4em 0 1em;
+}
+
+.main_text {
+    font-size: var(--fs-200);
+    margin: 0 0 4em;
+}
+
+.image-dark {
+    width: 100%;
+}
+
+.image-light {
+    width: 100%;
+}
