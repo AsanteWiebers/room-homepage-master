@@ -171,8 +171,26 @@ body {
 
 
 .nav-list {
-    display: none;
+    display: flex;
+    background: hsl(var(--primary-white));
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3em 5em;
+
 }
+
+.nav-link {
+    
+    text-decoration: none;
+    color: hsl(var(--primary-black));
+    padding: 0 5px 0;
+}
+
+.close-icon {
+    margin-right: 15px;
+}
+
 
 /* Hero section */
 
