@@ -11,28 +11,40 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/style.css">
   <title>Room homepage</title>
+
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
 
+
 <body>
 
   <header class="hero-bg">
-
     <nav class="top-nav">
       <div>
-        <div>
-          <img class="hamburger-icon" src="/images/icon-hamburger.svg" alt="icon-hamburger">
+        <img class="hamburger-icon" src="/images/icon-hamburger.svg" alt="icon-hamburger">
+        <img src="/images/logo.svg" alt="" class="logo">
+        <img src="/images/logo.svg" alt="" class="desk-logo">
+        <div class="desk-nav">
+          <a class="nav-link ff-600" href="#">
+            <li class="text-white">home</li>
+          </a>
+          <a class="nav-link ff-600" href="#">
+            <li class="text-white">shop</li>
+          </a>
+          <a class="nav-link ff-600" href="#">
+            <li class="text-white">about</li>
+          </a>
+          <a class="nav-link ff-600" href="#">
+            <li class="text-white">contact</li>
+          </a>
         </div>
-        <div>
-          <img class="logo" src="/images/logo.svg" alt="room-logo">
-        </div>
-
       </div>
-      <ul class="nav-list">
 
+      <ul id="myLinks" class="nav-list">
         <img class="close-icon" src="/images/icon-close.svg" alt="close icon">
+
         <a class="nav-link ff-600" href="#">
           <li>home</li>
         </a>
@@ -45,16 +57,17 @@
         <a class="nav-link ff-600" href="#">
           <li>contact</li>
         </a>
-
       </ul>
     </nav>
+
+    <!-- previeuw and next buttons -->
+
     <div class="arrow-box bg-black">
       <svg id="next" class="navButton-1" width="14" height="24" xmlns="http://www.w3.org/2000/svg">
         <path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd" /></svg>
       <svg id="previous" class="navButton-2" width="14" height="24" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd" /></svg>
     </div>
-
   </header>
 
   <div class="hero-box bg-hero-1 container">
@@ -113,9 +126,7 @@
     </div>
     <div><img class="image-light" src="/images/image-about-light.jpg" alt="chair in a light setting"></div>
   </div>
-  <script src="/main.js">
-
-  </script>
+  <script src="/main.js"></script>
 </body>
 
 </html>
